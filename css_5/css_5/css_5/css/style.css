@@ -29,7 +29,7 @@ body{
 }
 
 article {
-	background: url("../img/Ellipse1copy.svg") 40% 10%/90% auto no-repeat;
+	background: url("../img/Ellipse1copy.svg") 49% 30px/90% auto no-repeat;
 }
 
 .topic {
@@ -73,10 +73,10 @@ h1 {
 }
 
 ul li {
-	padding-left: 25px;
+	padding-left: 30px;
 	font-size: 20px;
 	margin-top: 13px;
-	background: url("../img/icons/li.svg") 0 2px no-repeat;
+	background: url("../img/icons/icon.png") 0 1px/24px no-repeat;
 }
 
 a {
@@ -90,7 +90,16 @@ a {
 	text-transform: uppercase;
 	color: #FFF;
 	letter-spacing: 2.8px;
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
 }
 
+.current {
+	color: #80b7b3;
+	font-style: italic;
+}
 
+.done {
+	color: rgba(39, 61, 70, 0.3);
+	text-decoration: line-through;
+}
 
